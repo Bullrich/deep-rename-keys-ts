@@ -1,18 +1,27 @@
-*.DS_Store
-*.sublime-*
-_gh_pages
-actual
-bower_components
-node_modules
-npm-debug.log
-staging
-temp
-test/actual
-tmp
-TODO.md
-vendor
+git/
 
-# npmignore
-.*
-test.js
-test
+# for WebStorm
+.idea/
+
+# for npm
+node_modules/
+npm-shrinkwrap.json
+
+# for https://github.com/Microsoft/TypeScript/issues/4667
+src/**/*.ts
+!src/**/*.d.ts
+
+# codes
+**/__tests__/**
+
+# misc
+example/
+.gitignore
+.editorconfig
+tslint.json
+.github
+.eslintrc.js
+
+npm-debug.log
+
+.DS_Store
